@@ -1,0 +1,98 @@
+
+body
+{
+background-position:center;
+width:100%;
+vertical-align:center;
+margin:50px;
+}
+
+
+
+
+h1{
+position: relative;
+top:0px;
+text-align: center;
+}
+
+
+
+.section1{
+	width: 30%;
+	height:20%;
+	border: solid 5px #fdfdfd;
+	float: left;
+	background-color:blue;
+	color:white;
+	padding:5px;
+	margin:10px;
+	
+}
+.section1 h4{
+ padding-left:68%;
+ width:10%;
+}
+
+
+.section2{
+	
+	width: 30%;
+	height:20%;
+	border: solid 5px #fdfdfd;
+	float: left;
+	background-color:teal;
+	color:white;
+	padding:5px;
+	margin:10px;
+
+}
+.section2 h4{
+ padding-left:68%;
+ width:10%;}
+
+
+.section3{
+	width: 30%;
+	height:20%;
+	border: solid 5px #fdfdfd;
+	float: left;
+	background-color:navy;
+	color:white;
+	padding:5px;
+	margin:10px;
+	
+}
+.section3 h4{
+ padding-left:68%;
+ width:10%;}
+
+/******Desktop Devices only*******/
+@media (min-width: 992px){
+.section1{
+width:30%;
+}
+}
+
+
+
+
+/******Tablet Devices only*******/
+@media(min-width: 768px) and (max-width: 991px){
+.section2{
+width:50%;
+}
+	
+}
+
+
+
+/******Mobile Devices only*******/
+
+@media(max-width: 767px){
+.section3{
+width:25%;
+}
+
+}
+
